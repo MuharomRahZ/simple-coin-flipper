@@ -7,8 +7,9 @@ coin = {
 
 def mainMenu():
     try:
-        print(f"WELCOME TO THE SIMPLE COIN FLIPPER")
-        print(f"This program will help you flip a coin and see if it's heads or tails")
+        print(f"==================================")
+        print(f"WELCOME TO THE SIMPLE COIN FLIPPER!")
+        print(f"This program will help you flip a coin and see if it's HEADS or TAILS")
         print(f"---CHOOSE MENU---\n1. FLIP A COIN\n2. EXIT")
         menu = int(input("Enter your menu choice: "))
         opsiMenu(menu)

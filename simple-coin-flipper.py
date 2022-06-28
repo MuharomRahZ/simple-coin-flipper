@@ -36,7 +36,7 @@ def coinFlipper():
     print(f"|Results:                     |")
     print(f"|You got {flipcoin}                |")
     print(f"-------------------------------")
-    print(f"==============================")
+    print(f"===============================")
     print()
     mainMenu()
 

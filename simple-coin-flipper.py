@@ -32,8 +32,10 @@ def coinFlipper():
     print(f"You have chosen to flip a coin")
     print(f"------------------------------")
     flipcoin = coin[rd.randint(1,2)]
-    print(f"The coin has been flipped and it's {flipcoin}")
-    print(f"------------------------------")
+    print(f"---The coin has been flipped---")
+    print(f"|Results:                     |")
+    print(f"|You got {flipcoin}                |")
+    print(f"-------------------------------")
     print(f"==============================")
     print()
     mainMenu()
